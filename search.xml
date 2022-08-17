@@ -8,7 +8,7 @@
       <link href="/2022/08/17/GithubPage-%E6%9B%B4%E6%8D%A2%E5%9F%9F%E5%90%8D/"/>
       <url>/2022/08/17/GithubPage-%E6%9B%B4%E6%8D%A2%E5%9F%9F%E5%90%8D/</url>
       
-        <content type="html"><![CDATA[<h1 id="众所周知"><a href="#众所周知" class="headerlink" title="众所周知"></a>众所周知</h1><p>域名是一个网站身份的象征</p><p>此篇文章将会教程如何使用购买的域名去绑定你的<mark>Githubpage</mark></p><h3 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h3><p><del>准备<strong>钱</strong></del>  准备一个阿里云账户在旗下万网注册一个域名，尽量选择顶级域名（.top .site .cn 等）进行<strong>实名认证</strong></p><h1 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h1><p>找到域名服务，点击域名列表，点击 <mark>解析</mark></p><p>&lt;img src&#x3D;”<a href="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/web.png&quot;/">https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/web.png&quot;/</a> &gt;</p><p>填入对应数据（或使用新手引导）特别注意此处的IP地址,等待解析生效(20min-2h)</p><p>&lt;img src&#x3D;”<a href="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/DNS.png&quot;/">https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/DNS.png&quot;/</a> &gt;</p><p><a href="https://tool.lu/ip/"><strong>IP查询工具</strong></a>  或者 cmd ping <mark>用户名.github.io</mark> 推荐使用工具查询</p><h1 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h1><p>打开你的 本地网站根目录文件夹 找到 source 新建一个CNAME的文件（无后缀），输入你的域名<a href="http://www.xxx.xx/">www.xxx.xx</a></p><p>&lt;img src&#x3D;”<a href="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/site.png&quot;/">https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/site.png&quot;/</a> &gt;</p><p>进行Hexo 三部曲 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hexo clean； Hexo g;  Hexo d</span><br></pre></td></tr></table></figure><p>最后返回到 Github的网站目录库点击 <mark>设置-Pages-custom domain</mark></p><img title="" src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/DOMAIN.png" alt="" data-align="left"><p>输入你的域名等待解析即可</p><p><strong>注意</strong>：由于 Github及Page在这片神奇的土地上属于半墙状态，所以有些家庭宽带无法访问十分正常（可以通过流量访问），可以通过给主机设置 <mark>Hosts</mark>或者给网页进行 <mark>ICP备案</mark> 或者使用 国外<mark>CDN服务</mark></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="一，众所周知"><a href="#一，众所周知" class="headerlink" title="一，众所周知"></a>一，众所周知</h1><p>域名是一个网站身份的象征</p><h3 id="二，此篇文章将会教程如何使用购买的域名去绑定你的Githubpage，让你能通过够买的域名访问你的网站"><a href="#二，此篇文章将会教程如何使用购买的域名去绑定你的Githubpage，让你能通过够买的域名访问你的网站" class="headerlink" title="二，此篇文章将会教程如何使用购买的域名去绑定你的Githubpage，让你能通过够买的域名访问你的网站"></a>二，此篇文章将会教程如何使用购买的域名去绑定你的<mark>Githubpage</mark>，让你能通过够买的域名访问你的网站</h3><h1 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h1><p><del>准备<strong>钱</strong></del>  准备一个阿里云账户在旗下万网注册一个域名，尽量选择顶级域名（.top .site .cn 等）进行<strong>实名认证</strong></p><h1 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h1><p>找到域名服务，点击域名列表，点击 <mark>解析</mark><br><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/web.png"><br>填入对应数据（或使用新手引导）特别注意此处的IP地址,等待解析生效(20min-2h)<br><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/DNS.png"><br><a href="https://tool.lu/ip/"><strong>IP查询工具</strong></a>  或者 cmd ping <mark>用户名.github.io</mark> 推荐使用工具查询</p><h1 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h1><p>打开你的 本地网站根目录文件夹 找到 source 新建一个CNAME的文件（无后缀），输入你的域名<a href="http://www.xxx.xx/">www.xxx.xx</a></p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/site.png"><p>进行Hexo 三部曲 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hexo clean； Hexo g;  Hexo d</span><br></pre></td></tr></table></figure><p>最后返回到 Github的网站目录库点击 <mark>设置-Pages-custom domain</mark></p><img title="" src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/DOMAIN.png"><p>输入你的域名等待解析即可</p><p><strong>注意</strong>：由于 Github及Page在这片神奇的土地上属于半墙状态，所以有些家庭宽带无法访问十分正常（可以通过流量访问），可以通过给主机设置 <mark>Hosts</mark>或者给网页进行 <mark>ICP备案</mark> 或者使用 国外<mark>CDN服务</mark></p>]]></content>
       
       
       <categories>
@@ -20,9 +20,9 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> 域名 </tag>
+            
+            <tag> 教程 </tag>
             
         </tags>
       
@@ -47,9 +47,9 @@
       
         <tags>
             
-            <tag> 建站 </tag>
-            
             <tag> 教程 </tag>
+            
+            <tag> 建站 </tag>
             
             <tag> hexo </tag>
             
