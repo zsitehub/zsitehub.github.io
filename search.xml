@@ -13,16 +13,16 @@
       
       <categories>
           
-          <category> 建站 </category>
-          
-          <category> 教程 </category>
+          <category> Gitee </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Gitee </tag>
+            <tag> 教程 </tag>
+            
+            <tag> 建站 </tag>
             
         </tags>
       
@@ -66,9 +66,9 @@
       
         <tags>
             
-            <tag> 域名 </tag>
-            
             <tag> 教程 </tag>
+            
+            <tag> 域名 </tag>
             
         </tags>
       
@@ -86,6 +86,8 @@
       
       <categories>
           
+          <category> hexo </category>
+          
           <category> Web </category>
           
       </categories>
@@ -96,8 +98,6 @@
             <tag> 教程 </tag>
             
             <tag> 建站 </tag>
-            
-            <tag> hexo </tag>
             
         </tags>
       
