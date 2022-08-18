@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title></title>
-      <link href="/2022/08/18/test/"/>
-      <url>/2022/08/18/test/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于一些奇特的bug</title>
       <link href="/2022/08/18/%E5%85%B3%E4%BA%8E%E4%B8%80%E4%BA%9B%E5%A5%87%E7%89%B9%E7%9A%84bug/"/>
       <url>/2022/08/18/%E5%85%B3%E4%BA%8E%E4%B8%80%E4%BA%9B%E5%A5%87%E7%89%B9%E7%9A%84bug/</url>
@@ -30,6 +17,31 @@
           
       </categories>
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Gitee+Github双向部属</title>
+      <link href="/2022/08/18/Gitee+Github%E5%8F%8C%E5%90%91%E9%83%A8%E7%BD%B2/"/>
+      <url>/2022/08/18/Gitee+Github%E5%8F%8C%E5%90%91%E9%83%A8%E7%BD%B2/</url>
+      
+        <content type="html"><![CDATA[<table><tr><td bgcolor=#BBFFFF><font size=3><h1 id="众所周知"><a href="#众所周知" class="headerlink" title="众所周知"></a>众所周知</h1><p>    Github 作为全球著名的同性交友网站深受各位程序员的喜爱，但由于一些原因，Github经常属于半墙状态（比如江苏有线宽带绝大部分屏蔽了github.com）</p><p>    <strong>于是</strong> Gitee 应运而生，作为 Github在国内的翻版，同样他也有着免费的 GiteePages 由于服务器架设在中国，所以在中国访问速度快，但是在这片神奇的土地上有着一个神奇的制度叫”备案” （如果服务器在中国就必须备案）否则网站不予显示。</p><p>在这样的背景下，使用 Gitee+自定义域名就十分麻烦（但是对于没有更换域名需求的人来讲，一个高速免费的 xx.gitee.io 个人博客谁不喜爱呢）</p><h1 id="正题"><a href="#正题" class="headerlink" title="正题"></a>正题</h1><h3 id="一，没有-Githubpages的账户"><a href="#一，没有-Githubpages的账户" class="headerlink" title="一，没有 Githubpages的账户"></a>一，没有 Githubpages的账户</h3><p>    哔哩哔哩 搜索<mark>Hexo+Gitee</mark> 教程一大堆，下方文章教程于已有Github情况</p><h3 id="二，导入库（有GithubPages）"><a href="#二，导入库（有GithubPages）" class="headerlink" title="二，导入库（有GithubPages）"></a>二，导入库（有GithubPages）</h3><p>    在已有 Githubpage的情况下，选择 Github登录 Gitee，通过点击直接导入Github的库</p><img title="" src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/gitee.png" alt="" data-align="left"><p>设置库名为 <mark><strong>xxx.gitee.io</strong></mark> </p><h3 id="三，Git设定和SSH绑定"><a href="#三，Git设定和SSH绑定" class="headerlink" title="三，Git设定和SSH绑定"></a>三，Git设定和SSH绑定</h3><p><a href="https://blog.csdn.net/qq_41473874/article/details/100104495">修改SSH和Git设定</a></p><h3 id="四，修改-Web根目录下-config-yml文件"><a href="#四，修改-Web根目录下-config-yml文件" class="headerlink" title="四，修改 Web根目录下  __config.yml文件"></a>四，修改 Web根目录下  __config.yml文件</h3><p>找到 Url 一行，新增一条<mark> Url2</mark></p><img title="" src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/url.png" alt="" data-align="left" width="408"></td></tr></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Gitee </tag>
+            
+        </tags>
       
     </entry>
     
@@ -52,9 +64,9 @@
       
         <tags>
             
-            <tag> 域名 </tag>
-            
             <tag> 教程 </tag>
+            
+            <tag> 域名 </tag>
             
         </tags>
       
@@ -79,9 +91,9 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> 建站 </tag>
+            
+            <tag> 教程 </tag>
             
             <tag> hexo </tag>
             
