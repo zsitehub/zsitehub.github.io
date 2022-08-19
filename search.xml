@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Twikoo评论系统</title>
+      <link href="/2022/08/19/Twikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/"/>
+      <url>/2022/08/19/Twikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</url>
+      
+        <content type="html"><![CDATA[<h1 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h1><h3 id="众所周知"><a href="#众所周知" class="headerlink" title="众所周知"></a>众所周知</h3><p>    一个好的评论系统可以很好的展示自己的主页和与人交流，起初本网站采用的是基于 LearnCloud 的 Valine无后端评论系统（延迟低，配置简单，有 CloudFlare支持）<br>    <strong>但是</strong> 过于简洁的后端导致评论系统没什么可玩性（UI也中规中矩），于是换用Twikoo。</p><h3 id="一，关于-Twikoo（官方文档可能无法访问，可用流量访问）"><a href="#一，关于-Twikoo（官方文档可能无法访问，可用流量访问）" class="headerlink" title="一，关于 Twikoo（官方文档可能无法访问，可用流量访问）"></a>一，关于 <a href="twikoo.js.org/">Twikoo</a>（官方文档可能无法访问，可用流量访问）</h3><p>    支持检测 QQ头像（邮箱），记录 IP，表情包，邮箱提醒等</p><p>    基于腾讯云开发，不多说，具体可以百度，目前有（Vercel）白嫖和购买腾讯云环境俩种方法，其主要的区别就是加载速度问题，此篇主要介绍如何使用 Vercel方法</p><h3 id="二，Twikoo安装流程"><a href="#二，Twikoo安装流程" class="headerlink" title="二，Twikoo安装流程"></a>二，Twikoo安装流程</h3><p>    1.<a href="https://www.mongodb.com/cloud/atlas/register"><strong>注册Mongodb</strong></a>，新建数据库<br><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/db.png"></p><p>    2.<strong>选择free 服务商aws 节点选香港</strong></p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/hk.png"><p>    3.创建完成后找到左侧边栏 Quickstart，设置账号密码保存</p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/shezhi.png"><p>    4.移到下方填入IP<mark>(0,0,0,0)</mark>（所有IP可访问）</p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/ip.png"><p>    5.设置完成回到 Database 点击Connect</p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/con.png"><p>    6.Choose a connection method 选择第二项，复制好下面字符串</p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/passs.png"><h3 id="三，设置-Vercel"><a href="#三，设置-Vercel" class="headerlink" title="三，设置 Vercel"></a>三，设置 <a href="https://vercel.com/signup">Vercel</a></h3><p>    1.Github登录绑定完成后点击：<a href="https://vercel.com/import/project?template=https://github.com/imaegoo/twikoo/tree/main/src/server/vercel-min">此链接部署</a><br><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/git.png">        </p><p>（等待 Deploy完成,完成后此时会出现“未配置环境变量”，正常现象）<br>    2.配置环境变量，输入刚刚复制的字符串，并修改</p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/mima.png">    3.完成后返回 Deployments 重新 Repoly到 Github<img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/re.png">    4.进入 Overview，点击 Domains下方的链接，如果环境配置正确，可以看到 “Twikoo 云函数运行正常” 的提示<img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/domain.png">    5.复制你的 Domains （你的环境 ID由 https://+Domains组成）    6.在你的主题下填入 Twikoo配置项<p>#Twikoo</p><p>#<a href="https://github.com/imaegoo/twikoo">https://github.com/imaegoo/twikoo</a></p><p>twikoo:<br>envId: <a href="https://xxxxxx.vercel.app/">https://xxxxxx.vercel.app/</a><br>region: #默认节点即可<br>visitor: true #记录访问人数<br>option:</p><p>注：deploy到 Github默认分支即可    </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Twikoo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Gitee+Github双向部属</title>
       <link href="/2022/08/18/Gitee+Github%E5%8F%8C%E5%90%91%E9%83%A8%E7%BD%B2/"/>
       <url>/2022/08/18/Gitee+Github%E5%8F%8C%E5%90%91%E9%83%A8%E7%BD%B2/</url>
