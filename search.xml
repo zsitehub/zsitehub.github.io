@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Puppeteer自动更新GiteePages</title>
+      <link href="/2022/08/20/Puppeteer%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0GiteePage/"/>
+      <url>/2022/08/20/Puppeteer%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0GiteePage/</url>
+      
+        <content type="html"><![CDATA[<h1 id="众所周知"><a href="#众所周知" class="headerlink" title="众所周知"></a>众所周知</h1><p>    在 Github上我们上传的库文件会实时更新到你的 GithubPages上，而这么简便的功能，在 Gitee上居然要收费？？(开通 Gitee pro)，否则得手动到你的 GiteePages上点击更新按钮，于是本着解放双手（没钱，懒）的原则，引入 Puppeteer自动化脚本，使得一行指令就可以更新你的GiteePages页面。</p><h2 id="第一步-，更新你的Google浏览器到最新版本"><a href="#第一步-，更新你的Google浏览器到最新版本" class="headerlink" title="第一步 ，更新你的Google浏览器到最新版本"></a>第一步 ，更新你的Google浏览器到最新版本</h2><p>    <strong>设置-关于Chorme-检查更新</strong></p><h2 id="第二步，安装Puppeteer"><a href="#第二步，安装Puppeteer" class="headerlink" title="第二步，安装Puppeteer"></a>第二步，安装Puppeteer</h2><p>    任意地方新建文件夹，右键 Gitbush（没权限就用Powershell管理员）</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm init -y</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm i puppeteer-core</span><br></pre></td></tr></table></figure><p>    在文件夹下找到 package.json，删除所有代码，将下列复制进去，保存退出</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123; </span><br><span class="line"> &quot;dependencies&quot;: &#123; </span><br><span class="line"> &quot;puppeteer&quot;: &quot;1.8.0&quot;</span><br><span class="line"> &#125;, </span><br><span class="line">  &quot;name&quot;: &quot;gitee-update&quot;, </span><br><span class="line">  &quot;bin&quot;: &#123; </span><br><span class="line">  &quot;gitee-update&quot;: &quot;index.js&quot; </span><br><span class="line"> &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="第三步-，配置index-js"><a href="#第三步-，配置index-js" class="headerlink" title="第三步 ，配置index.js"></a>第三步 ，配置index.js</h3><p>    当前文件夹新建 index.js</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">const puppeteer = require(&quot;puppeteer&quot;);</span><br><span class="line">async function giteeUpdate() &#123;</span><br><span class="line">    const browser = await puppeteer.launch(&#123;</span><br><span class="line">// --------------------调试完注释即可---------------------------</span><br><span class="line">        headless: false</span><br><span class="line">    &#125;)</span><br><span class="line">    const page = await browser.newPage()</span><br><span class="line">    await page.goto(&quot;https://gitee.com/login&quot;)</span><br><span class="line">    let accountElements = await page.$x(&#x27;//*[@id=&quot;user_login&quot;]&#x27;)</span><br><span class="line"></span><br><span class="line">// --------------------设置为自己的gitee账户---------------</span><br><span class="line">    await accountElements[0].type(&quot;xxx&quot;)</span><br><span class="line">    let pwdElements = await page.$x(&#x27;//*[@id=&quot;user_password&quot;]&#x27;)</span><br><span class="line">//----------------------设置自己的gitee密码----------------</span><br><span class="line">    await pwdElements[0].type(&quot;xxx&quot;)</span><br><span class="line">    let loginButtons = await page.$x(&#x27;//*[@class=&quot;git-login-form-fields&quot;]/div[4]/input&#x27;)</span><br><span class="line">    await loginButtons[0].click()</span><br><span class="line">    await page.waitFor(1000)</span><br><span class="line">//--------------------一定是更新页面(显示有更新按钮的)------------</span><br><span class="line">  await page.goto(&quot;仓库的更新页面&quot;)</span><br><span class="line">    await page.on(&quot;dialog&quot;, async dialog =&gt; &#123;</span><br><span class="line">        console.log(&quot;确认更新&quot;)</span><br><span class="line">        dialog.accept();</span><br><span class="line">    &#125;)</span><br><span class="line">    let updateButtons = await page.$x(&#x27;//*[@id=&quot;pages-branch&quot;]/div[6]&#x27;)</span><br><span class="line">    console.log(1111, updateButtons)</span><br><span class="line">    await updateButtons[0].click()</span><br><span class="line">    while (true) &#123;</span><br><span class="line">        await page.waitFor(2000)</span><br><span class="line">        try &#123;</span><br><span class="line">            deploying = await page.$x(&#x27;//*[@id=&quot;pages_deploying&quot;]&#x27;)</span><br><span class="line">            if (deploying.length &gt; 0) &#123;</span><br><span class="line">                console.log(&quot;更新中...&quot;)</span><br><span class="line">            &#125; else &#123;</span><br><span class="line">                console.log(&quot;更新完毕&quot;)</span><br><span class="line">                break</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; catch (error) &#123;</span><br><span class="line">            break</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    await page.waitFor(500)</span><br><span class="line"></span><br><span class="line">   browser.close()</span><br><span class="line">&#125;  </span><br><span class="line">giteeUpdate()</span><br></pre></td></tr></table></figure><p>    保存后继续在 Gitbush输入，加入到 npm指令中</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm link</span><br></pre></td></tr></table></figure><p>    随后试运行 <strong>gitee-update</strong> 指令，看能否自动点击完成部署，若成功，回到 index.js文件，把 <mark>headless注释掉</mark>。</p><p>注：可以自定义指令，修改 package.json中 name和 bin然后重新 npm link即可</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Puppeteer </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> 自动化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Twikoo评论系统</title>
       <link href="/2022/08/19/Twikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/"/>
       <url>/2022/08/19/Twikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</url>
@@ -13,14 +40,14 @@
       
       <categories>
           
-          <category> 教程 </category>
+          <category> Twikoo </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Twikoo </tag>
+            <tag> 教程 </tag>
             
         </tags>
       
@@ -38,14 +65,18 @@
       
       <categories>
           
-          <category> 教程 </category>
+          <category> 双向部署 </category>
           
       </categories>
       
       
         <tags>
             
+            <tag> 教程 </tag>
+            
             <tag> Gitee </tag>
+            
+            <tag> Github </tag>
             
         </tags>
       
@@ -82,14 +113,16 @@
       
       <categories>
           
-          <category> 教程 </category>
+          <category> 域名 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> DNS </tag>
+            <tag> 教程 </tag>
+            
+            <tag> 域名绑定 </tag>
             
         </tags>
       
