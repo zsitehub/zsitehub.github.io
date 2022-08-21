@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>关于无法升级HarmonyOS鸿蒙系统</title>
-      <link href="/2022/08/21/%E5%85%B3%E4%BA%8E%E6%97%A0%E6%B3%95%E5%8D%87%E7%BA%A7HarmonyOS%E9%B8%BF%E8%92%99%E7%B3%BB%E7%BB%9F/"/>
-      <url>/2022/08/21/%E5%85%B3%E4%BA%8E%E6%97%A0%E6%B3%95%E5%8D%87%E7%BA%A7HarmonyOS%E9%B8%BF%E8%92%99%E7%B3%BB%E7%BB%9F/</url>
+      <title>关于升级HarmonyOS鸿蒙系统</title>
+      <link href="/2022/08/21/%E5%85%B3%E4%BA%8E%E5%8D%87%E7%BA%A7HarmonyOS%E9%B8%BF%E8%92%99%E7%B3%BB%E7%BB%9F/"/>
+      <url>/2022/08/21/%E5%85%B3%E4%BA%8E%E5%8D%87%E7%BA%A7HarmonyOS%E9%B8%BF%E8%92%99%E7%B3%BB%E7%BB%9F/</url>
       
-        <content type="html"><![CDATA[<h1 id="众所周知"><a href="#众所周知" class="headerlink" title="众所周知"></a>众所周知</h1><p>  鸿蒙OS早在 2019年8月9日发布，历经俩年到 2021年6月实现基本推送，而一些特殊的原因，有些华为似乎没有接到推送（无法升级鸿蒙OS）</p><h1 id="于是"><a href="#于是" class="headerlink" title="于是"></a>于是</h1><p>  秉着实事求是的原则（想给自己的荣耀X10升级鸿蒙却又没有得到推送），首先想到的是<mark><strong>能否适配问题</strong></mark>。</p><h3 id="一-查询机型是否适配"><a href="#一-查询机型是否适配" class="headerlink" title="一.查询机型是否适配"></a>一.<a href="https://consumer.huawei.com/cn/support/harmonyos/models/">查询机型是否适配</a></h3><p>  翻到最下方小字部分点击<a href="https://consumer.huawei.com/cn/support/harmonyos/models1/">鸿蒙支持机型</a>查看，经过查询，可以看到荣耀X10早就适配了鸿蒙系统</p><h3 id="二-排除更新程序问题"><a href="#二-排除更新程序问题" class="headerlink" title="二.排除更新程序问题"></a>二.排除更新程序问题</h3><p>  想到是否是因为系统更新这个程序没有正确运行（尝试清除<strong>系统更新</strong>的应用数据）</p><h3 id="三-尝试向客服反馈"><a href="#三-尝试向客服反馈" class="headerlink" title="三.尝试向客服反馈"></a>三.尝试向客服反馈</h3><p>  拨打华为客服热线转到鸿蒙咨询，得到的结果是该机型适配鸿蒙，建议去授权店查看，略过</p><h3 id="四-尝试使用华为助手检查更新"><a href="#四-尝试使用华为助手检查更新" class="headerlink" title="四.尝试使用华为助手检查更新"></a>四.尝试使用华为助手检查更新</h3><p>  PC端下载华为手机助手，按提示连上手机后点击检查更新（还是无效）</p><h3 id="在经历上诉操作全都无法解决时，尝试从当前系统包入手"><a href="#在经历上诉操作全都无法解决时，尝试从当前系统包入手" class="headerlink" title="在经历上诉操作全都无法解决时，尝试从当前系统包入手"></a>在经历上诉操作全都无法解决时，尝试从当前系统包入手</h3><p>  鸿蒙OS更新推送的原理是基于当前手机系统OS包名决定，当前我的包是 MagicUI3.1.1，理论来说可以正常检测并推送鸿蒙，尝试重新安装当前OS</p><p>step 1.手机关机，然后电源键加上键开机，等到系统图标亮再松<br>step 2.在出现的界面点击升级模式（下载系统全量包）<br>step 3.点击 <mark>eRecovery模式</mark><br>step 4.下载最新系统并恢复,连接wifi下载</p><p>下载完成后再次点击系统更新，此时收到了鸿蒙OS的推送。<br>当然，重新安装系统只是一种方式，也可以选择<a href="https://115.com/s/swn3jd33wlj?password=e7e7&#">卡刷鸿蒙OS</a>:<mark>注意备份</mark></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="众所周知"><a href="#众所周知" class="headerlink" title="众所周知"></a>众所周知</h1><p>  鸿蒙OS早在 2019年8月9日发布，历经俩年到 2021年6月实现基本推送，而一些特殊的原因，有些华为似乎没有接到推送（无法升级鸿蒙OS）</p><h1 id="于是"><a href="#于是" class="headerlink" title="于是"></a>于是</h1><p>  秉着实事求是的原则（想给自己的荣耀X10升级鸿蒙却又没有得到推送），首先想到的是<mark><strong>能否适配问题</strong></mark>。</p><h3 id="一-查询机型是否适配"><a href="#一-查询机型是否适配" class="headerlink" title="一.查询机型是否适配"></a>一.<a href="https://consumer.huawei.com/cn/support/harmonyos/models/">查询机型是否适配</a></h3><p>  翻到最下方小字部分点击<a href="https://consumer.huawei.com/cn/support/harmonyos/models1/">鸿蒙支持机型</a>查看，经过查询，可以看到荣耀X10早就适配了鸿蒙系统</p><h3 id="二-排除更新程序问题"><a href="#二-排除更新程序问题" class="headerlink" title="二.排除更新程序问题"></a>二.排除更新程序问题</h3><p>  想到是否是因为系统更新这个程序没有正确运行（尝试清除<strong>系统更新</strong>的应用数据）</p><h3 id="三-尝试向客服反馈"><a href="#三-尝试向客服反馈" class="headerlink" title="三.尝试向客服反馈"></a>三.尝试向客服反馈</h3><p>  拨打华为客服热线转到鸿蒙咨询，得到的结果是该机型适配鸿蒙，建议去授权店查看，略过</p><h3 id="四-尝试使用华为助手检查更新"><a href="#四-尝试使用华为助手检查更新" class="headerlink" title="四.尝试使用华为助手检查更新"></a>四.尝试使用华为助手检查更新</h3><p>  PC端下载华为手机助手，按提示连上手机后点击检查更新（还是无效）</p><h3 id="在经历上诉操作全都无法解决时，尝试从当前系统包入手"><a href="#在经历上诉操作全都无法解决时，尝试从当前系统包入手" class="headerlink" title="在经历上诉操作全都无法解决时，尝试从当前系统包入手"></a>在经历上诉操作全都无法解决时，尝试从当前系统包入手</h3><p>  鸿蒙OS更新推送的原理是基于当前手机系统OS包名决定，当前我的包是 MagicUI3.1.1，理论来说可以正常检测并推送鸿蒙，尝试重新安装当前OS</p><hr><p>step 1.手机关机，然后电源键加上键开机，等到系统图标亮再松<br>step 2.在出现的界面点击升级模式（下载系统全量包）<br>step 3.点击 <mark>eRecovery模式</mark><br>step 4.下载最新系统并恢复,连接wifi下载</p><hr><p>  下载完成后再次点击系统更新，此时收到了鸿蒙OS的推送。<br>  当然，重新安装系统只是一种方式，也可以选择<a href="https://115.com/s/swn3jd33wlj?password=e7e7&#">卡刷鸿蒙OS</a> (<mark>注意备份</mark>)</p>]]></content>
       
       
       <categories>
@@ -47,9 +47,9 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> 自动化 </tag>
+            
+            <tag> 教程 </tag>
             
         </tags>
       
