@@ -8,7 +8,7 @@
       <link href="/2022/08/23/%E5%BE%AE%E4%BF%A1%E8%AE%A2%E9%98%85%E5%8F%B7%E6%8E%A8%E9%80%81%E8%87%AA%E5%AE%9A%E4%B9%89%E6%B6%88%E6%81%AF/"/>
       <url>/2022/08/23/%E5%BE%AE%E4%BF%A1%E8%AE%A2%E9%98%85%E5%8F%B7%E6%8E%A8%E9%80%81%E8%87%AA%E5%AE%9A%E4%B9%89%E6%B6%88%E6%81%AF/</url>
       
-        <content type="html"><![CDATA[<h1 id="微信公众平台自定义推送"><a href="#微信公众平台自定义推送" class="headerlink" title="微信公众平台自定义推送"></a>微信公众平台自定义推送</h1><h3 id="适用于家人，情侣，朋友等"><a href="#适用于家人，情侣，朋友等" class="headerlink" title="适用于家人，情侣，朋友等"></a>适用于家人，情侣，朋友等</h3><p><strong>例图：</strong><br><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/jietu.jpg"></p><hr><h3 id="下载地址-附教程"><a href="#下载地址-附教程" class="headerlink" title="下载地址(附教程)"></a><a href="https://gitee.com/zsitehub/tuisong.git"><strong>下载地址(附教程)</strong></a></h3><p>注：下载到本地后 EXE版本为简洁版，也可自定义源码版，修改文件 txt使用包内 Notepad++</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="微信公众平台自定义推送"><a href="#微信公众平台自定义推送" class="headerlink" title="微信公众平台自定义推送"></a>微信公众平台自定义推送</h1><h3 id="适用于家人，情侣，朋友等"><a href="#适用于家人，情侣，朋友等" class="headerlink" title="适用于家人，情侣，朋友等"></a>适用于家人，情侣，朋友等</h3><p><strong>例图：</strong><br><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/jietu.jpg"></p><hr><h3 id="下载地址-附教程"><a href="#下载地址-附教程" class="headerlink" title="下载地址(附教程)"></a><a href="https://gitee.com/zsitehub/tuisong.git"><strong>下载地址(附教程)</strong></a></h3><p>注：下载到本地后 EXE版本为简洁版，也可自定义源码版，修改文件 txt使用包内 Notepad++，自动部署可以使用 Github Action</p>]]></content>
       
       
       <categories>
@@ -110,6 +110,25 @@
     
     
     <entry>
+      <title>关于一些奇特的bug</title>
+      <link href="/2022/08/18/%E5%85%B3%E4%BA%8E%E4%B8%80%E4%BA%9B%E5%A5%87%E7%89%B9%E7%9A%84bug/"/>
+      <url>/2022/08/18/%E5%85%B3%E4%BA%8E%E4%B8%80%E4%BA%9B%E5%A5%87%E7%89%B9%E7%9A%84bug/</url>
+      
+        <content type="html"><![CDATA[<h1 id="记录一些奇怪的BUG"><a href="#记录一些奇怪的BUG" class="headerlink" title="记录一些奇怪的BUG"></a>记录一些奇怪的BUG</h1><hr><ul><li>1.使用MarkText打开过的md文件，保存后使用Hexo d上传会失效 （使用WebStorm重新打开一次，修改一些试试使其重新保存）</li><li>2.Hexo d port443 问题（大概是VNP占用了端口，试试关闭VNP重启电脑）</li><li>3.Gitbush 连接到Github账户出现SSL问题，或者弹出git窗口（使用Github个人令牌）</li><li>4.not permission （先确定磁盘是否写有权限，系统可以创建文件夹或文件,Gitbush图标右键管理员，PowerShell管理员，cd指令）</li><li>5.使用Github SSH部署（优先选择Https令牌登录）可能会报端口22错误（检查是否用了 DevSidecar或 VNP）</li><li>6.repository选择 main分支，但是默认上传还是master分支（？）</li></ul><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> 记录 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Gitee+Github双向部属</title>
       <link href="/2022/08/18/Gitee+Github%E5%8F%8C%E5%90%91%E9%83%A8%E7%BD%B2/"/>
       <url>/2022/08/18/Gitee+Github%E5%8F%8C%E5%90%91%E9%83%A8%E7%BD%B2/</url>
@@ -133,25 +152,6 @@
             <tag> Github </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于一些奇特的bug</title>
-      <link href="/2022/08/18/%E5%85%B3%E4%BA%8E%E4%B8%80%E4%BA%9B%E5%A5%87%E7%89%B9%E7%9A%84bug/"/>
-      <url>/2022/08/18/%E5%85%B3%E4%BA%8E%E4%B8%80%E4%BA%9B%E5%A5%87%E7%89%B9%E7%9A%84bug/</url>
-      
-        <content type="html"><![CDATA[<h1 id="记录一些奇怪的BUG"><a href="#记录一些奇怪的BUG" class="headerlink" title="记录一些奇怪的BUG"></a>记录一些奇怪的BUG</h1><hr><ul><li>1.使用MarkText打开过的md文件，保存后使用Hexo d上传会失效 （使用WebStorm重新打开一次，修改一些试试使其重新保存）</li><li>2.Hexo d port443 问题（大概是VNP占用了端口，试试关闭VNP重启电脑）</li><li>3.Gitbush 连接到Github账户出现SSL问题，或者弹出git窗口（使用Github个人令牌）</li><li>4.not permission （先确定磁盘是否写有权限，系统可以创建文件夹或文件,Gitbush图标右键管理员，PowerShell管理员，cd指令）</li><li>5.使用Github SSH部署（优先选择Https令牌登录）可能会报端口22错误（检查是否用了 DevSidecar或 VNP）</li><li>6.repository选择 main分支，但是默认上传还是master分支（？）</li></ul><hr>]]></content>
-      
-      
-      <categories>
-          
-          <category> 记录 </category>
-          
-      </categories>
-      
       
     </entry>
     
