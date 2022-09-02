@@ -4,11 +4,146 @@
   
     
     <entry>
+      <title>微信公众平台推送自定义消息</title>
+      <link href="/2022/08/23/%E5%BE%AE%E4%BF%A1%E8%AE%A2%E9%98%85%E5%8F%B7%E6%8E%A8%E9%80%81%E8%87%AA%E5%AE%9A%E4%B9%89%E6%B6%88%E6%81%AF/"/>
+      <url>/2022/08/23/%E5%BE%AE%E4%BF%A1%E8%AE%A2%E9%98%85%E5%8F%B7%E6%8E%A8%E9%80%81%E8%87%AA%E5%AE%9A%E4%B9%89%E6%B6%88%E6%81%AF/</url>
+      
+        <content type="html"><![CDATA[<h1 id="微信公众平台自定义推送"><a href="#微信公众平台自定义推送" class="headerlink" title="微信公众平台自定义推送"></a>微信公众平台自定义推送</h1><h3 id="适用于家人，情侣，朋友等"><a href="#适用于家人，情侣，朋友等" class="headerlink" title="适用于家人，情侣，朋友等"></a>适用于家人，情侣，朋友等</h3><p><strong>例图：</strong><br><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/jietu.jpg"></p><hr><h3 id="下载地址-附教程"><a href="#下载地址-附教程" class="headerlink" title="下载地址(附教程)"></a><a href="https://gitee.com/zsitehub/tuisong.git"><strong>下载地址(附教程)</strong></a></h3><p>注：下载到本地后 EXE版本为简洁版，也可自定义源码版，修改文件 txt使用包内 Notepad++，自动部署可以使用 Github Action</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 微信 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Wechat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于升级HarmonyOS鸿蒙系统</title>
+      <link href="/2022/08/21/%E5%85%B3%E4%BA%8E%E5%8D%87%E7%BA%A7HarmonyOS%E9%B8%BF%E8%92%99%E7%B3%BB%E7%BB%9F/"/>
+      <url>/2022/08/21/%E5%85%B3%E4%BA%8E%E5%8D%87%E7%BA%A7HarmonyOS%E9%B8%BF%E8%92%99%E7%B3%BB%E7%BB%9F/</url>
+      
+        <content type="html"><![CDATA[<h1 id="众所周知"><a href="#众所周知" class="headerlink" title="众所周知"></a>众所周知</h1><p>  鸿蒙OS早在 2019年8月9日发布，历经俩年到 2021年6月实现基本推送，而一些特殊的原因，有些华为似乎没有接到推送（无法升级鸿蒙OS）</p><h1 id="于是"><a href="#于是" class="headerlink" title="于是"></a>于是</h1><p>  秉着实事求是的原则（想给自己的荣耀X10升级鸿蒙却又没有得到推送），首先想到的是<mark><strong>能否适配问题</strong></mark>。</p><h3 id="一-查询机型是否适配"><a href="#一-查询机型是否适配" class="headerlink" title="一.查询机型是否适配"></a>一.<a href="https://consumer.huawei.com/cn/support/harmonyos/models/">查询机型是否适配</a></h3><p>  翻到最下方小字部分点击<a href="https://consumer.huawei.com/cn/support/harmonyos/models1/">鸿蒙支持机型</a>查看，经过查询，可以看到荣耀X10早就适配了鸿蒙系统</p><h3 id="二-排除更新程序问题"><a href="#二-排除更新程序问题" class="headerlink" title="二.排除更新程序问题"></a>二.排除更新程序问题</h3><p>  想到是否是因为系统更新这个程序没有正确运行（尝试清除<strong>系统更新</strong>的应用数据）</p><h3 id="三-尝试向客服反馈"><a href="#三-尝试向客服反馈" class="headerlink" title="三.尝试向客服反馈"></a>三.尝试向客服反馈</h3><p>  拨打华为客服热线转到鸿蒙咨询，得到的结果是该机型适配鸿蒙，建议去授权店查看，略过</p><h3 id="四-尝试使用华为助手检查更新"><a href="#四-尝试使用华为助手检查更新" class="headerlink" title="四.尝试使用华为助手检查更新"></a>四.尝试使用华为助手检查更新</h3><p>  PC端下载华为手机助手，按提示连上手机后点击检查更新（还是无效）</p><h3 id="在经历上诉操作全都无法解决时，尝试从当前系统包入手"><a href="#在经历上诉操作全都无法解决时，尝试从当前系统包入手" class="headerlink" title="在经历上诉操作全都无法解决时，尝试从当前系统包入手"></a>在经历上诉操作全都无法解决时，尝试从当前系统包入手</h3><p>  鸿蒙OS更新推送的原理是基于当前手机系统OS包名决定，当前我的包是 MagicUI3.1.1，理论来说可以正常检测并推送鸿蒙，尝试重新安装当前OS</p><hr><p>step 1.手机关机，然后电源键加上键开机，等到系统图标亮再松<br>step 2.在出现的界面点击升级模式（下载系统全量包）<br>step 3.点击 <mark>eRecovery模式</mark><br>step 4.下载最新系统并恢复,连接wifi下载</p><hr><p>  下载完成后再次点击系统更新，此时收到了鸿蒙OS的推送。<br>  当然，重新安装系统只是一种方式，也可以选择<a href="https://115.com/s/swn3jd33wlj?password=e7e7&#">卡刷鸿蒙OS</a> (<mark>注意备份</mark>)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 鸿蒙 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HarmonyOS </tag>
+            
+            <tag> Phone </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Puppeteer自动更新GiteePages</title>
+      <link href="/2022/08/20/Puppeteer%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0GiteePage/"/>
+      <url>/2022/08/20/Puppeteer%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0GiteePage/</url>
+      
+        <content type="html"><![CDATA[<h1 id="众所周知"><a href="#众所周知" class="headerlink" title="众所周知"></a>众所周知</h1><p>    在 Github上我们上传的库文件会实时更新到你的 GithubPages上，而这么简便的功能，在 Gitee上居然要收费？？(开通 Gitee pro)，否则得手动到你的 GiteePages上点击更新按钮，于是本着解放双手（没钱，懒）的原则，引入 Puppeteer自动化脚本，使得一行指令就可以更新你的GiteePages页面。</p><h2 id="第一步-，更新你的Google浏览器到最新版本"><a href="#第一步-，更新你的Google浏览器到最新版本" class="headerlink" title="第一步 ，更新你的Google浏览器到最新版本"></a>第一步 ，更新你的Google浏览器到最新版本</h2><p>    <strong>设置-关于Chorme-检查更新</strong></p><h2 id="第二步，安装Puppeteer"><a href="#第二步，安装Puppeteer" class="headerlink" title="第二步，安装Puppeteer"></a>第二步，安装Puppeteer</h2><p>    任意地方新建文件夹，右键 Gitbush（没权限就用Powershell管理员）</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm init -y</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm i puppeteer-core</span><br></pre></td></tr></table></figure><p>    在文件夹下找到 package.json，删除所有代码，将下列复制进去，保存退出</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123; </span><br><span class="line"> &quot;dependencies&quot;: &#123; </span><br><span class="line"> &quot;puppeteer&quot;: &quot;1.8.0&quot;</span><br><span class="line"> &#125;, </span><br><span class="line">  &quot;name&quot;: &quot;gitee-update&quot;, </span><br><span class="line">  &quot;bin&quot;: &#123; </span><br><span class="line">  &quot;gitee-update&quot;: &quot;index.js&quot; </span><br><span class="line"> &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="第三步-，配置index-js"><a href="#第三步-，配置index-js" class="headerlink" title="第三步 ，配置index.js"></a>第三步 ，配置index.js</h2><p>    当前文件夹新建 index.js</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">const puppeteer = require(&quot;puppeteer&quot;);</span><br><span class="line">async function giteeUpdate() &#123;</span><br><span class="line">    const browser = await puppeteer.launch(&#123;</span><br><span class="line">// --------------------调试完注释即可---------------------------</span><br><span class="line">        headless: false</span><br><span class="line">    &#125;)</span><br><span class="line">    const page = await browser.newPage()</span><br><span class="line">    await page.goto(&quot;https://gitee.com/login&quot;)</span><br><span class="line">    let accountElements = await page.$x(&#x27;//*[@id=&quot;user_login&quot;]&#x27;)</span><br><span class="line"></span><br><span class="line">// --------------------设置为自己的gitee账户---------------</span><br><span class="line">    await accountElements[0].type(&quot;xxx&quot;)</span><br><span class="line">    let pwdElements = await page.$x(&#x27;//*[@id=&quot;user_password&quot;]&#x27;)</span><br><span class="line">//----------------------设置自己的gitee密码----------------</span><br><span class="line">    await pwdElements[0].type(&quot;xxx&quot;)</span><br><span class="line">    let loginButtons = await page.$x(&#x27;//*[@class=&quot;git-login-form-fields&quot;]/div[4]/input&#x27;)</span><br><span class="line">    await loginButtons[0].click()</span><br><span class="line">    await page.waitFor(1000)</span><br><span class="line">//--------------------一定是更新页面(显示有更新按钮的)------------</span><br><span class="line">  await page.goto(&quot;仓库的更新页面&quot;)</span><br><span class="line">    await page.on(&quot;dialog&quot;, async dialog =&gt; &#123;</span><br><span class="line">        console.log(&quot;确认更新&quot;)</span><br><span class="line">        dialog.accept();</span><br><span class="line">    &#125;)</span><br><span class="line">    let updateButtons = await page.$x(&#x27;//*[@id=&quot;pages-branch&quot;]/div[6]&#x27;)</span><br><span class="line">    console.log(1111, updateButtons)</span><br><span class="line">    await updateButtons[0].click()</span><br><span class="line">    while (true) &#123;</span><br><span class="line">        await page.waitFor(2000)</span><br><span class="line">        try &#123;</span><br><span class="line">            deploying = await page.$x(&#x27;//*[@id=&quot;pages_deploying&quot;]&#x27;)</span><br><span class="line">            if (deploying.length &gt; 0) &#123;</span><br><span class="line">                console.log(&quot;更新中...&quot;)</span><br><span class="line">            &#125; else &#123;</span><br><span class="line">                console.log(&quot;更新完毕&quot;)</span><br><span class="line">                break</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; catch (error) &#123;</span><br><span class="line">            break</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    await page.waitFor(500)</span><br><span class="line"></span><br><span class="line">   browser.close()</span><br><span class="line">&#125;  </span><br><span class="line">giteeUpdate()</span><br></pre></td></tr></table></figure><p>    保存后继续在 Gitbush输入，加入到 npm指令中</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm link</span><br></pre></td></tr></table></figure><p>    随后试运行 <strong>gitee-update</strong> 指令，看能否自动点击完成部署，若成功，回到 index.js文件，把 <mark>headless注释掉</mark>。</p><p>注：可以自定义指令，修改 package.json中 name和 bin然后重新 npm link即可</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Puppeteer </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> 自动化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Twikoo评论系统</title>
+      <link href="/2022/08/19/Twikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/"/>
+      <url>/2022/08/19/Twikoo%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</url>
+      
+        <content type="html"><![CDATA[<h1 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h1><h3 id="众所周知"><a href="#众所周知" class="headerlink" title="众所周知"></a>众所周知</h3><p>    一个好的评论系统可以很好的展示自己的主页和与人交流，起初本网站采用的是基于 LearnCloud 的 Valine无后端评论系统（延迟低，配置简单，有 CloudFlare支持）<br>    <strong>但是</strong> 过于简洁的后端导致评论系统没什么可玩性（UI也中规中矩），于是换用Twikoo。</p><h3 id="一，关于-Twikoo（官方文档可能无法访问，可用流量访问）"><a href="#一，关于-Twikoo（官方文档可能无法访问，可用流量访问）" class="headerlink" title="一，关于 Twikoo（官方文档可能无法访问，可用流量访问）"></a>一，关于 <a href="twikoo.js.org/">Twikoo</a>（官方文档可能无法访问，可用流量访问）</h3><p>    支持检测 QQ头像（邮箱），记录 IP，表情包，邮箱提醒等</p><p>    基于腾讯云开发，不多说，具体可以百度，目前有（Vercel）白嫖和购买腾讯云环境俩种方法，其主要的区别就是加载速度问题，此篇主要介绍如何使用 Vercel方法</p><h3 id="二，Twikoo安装流程"><a href="#二，Twikoo安装流程" class="headerlink" title="二，Twikoo安装流程"></a>二，Twikoo安装流程</h3><p>    1.<a href="https://www.mongodb.com/cloud/atlas/register"><strong>注册Mongodb</strong></a>，新建数据库<br><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/db.png"></p><p>    2.<strong>选择free 服务商aws 节点选香港</strong></p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/hk.png"><p>    3.创建完成后找到左侧边栏 Quickstart，设置账号密码保存</p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/shezhi.png"><p>    4.移到下方填入IP<mark>(0,0,0,0)</mark>（所有IP可访问）</p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/ip.png"><p>    5.设置完成回到 Database 点击Connect</p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/con.png"><p>    6.Choose a connection method 选择第二项，复制好下面字符串</p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/passs.png"><h3 id="三，设置-Vercel"><a href="#三，设置-Vercel" class="headerlink" title="三，设置 Vercel"></a>三，设置 <a href="https://vercel.com/signup">Vercel</a></h3><p>    1.Github登录绑定完成后点击：<a href="https://vercel.com/import/project?template=https://github.com/imaegoo/twikoo/tree/main/src/server/vercel-min">此链接部署</a><br><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/git.png">        </p><p>（等待 Deploy完成,完成后此时会出现“未配置环境变量”，正常现象）<br>    2.配置环境变量，输入刚刚复制的字符串，并修改</p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/mima.png">    3.完成后返回 Deployments 重新 Repoly到 Github<img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/re.png">    4.进入 Overview，点击 Domains下方的链接，如果环境配置正确，可以看到 “Twikoo 云函数运行正常” 的提示<img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/twikoo/domain.png">    5.复制你的 Domains （你的环境 ID由 https://+Domains组成）    6.在你的主题下填入 Twikoo配置项<p>#Twikoo</p><p>#<a href="https://github.com/imaegoo/twikoo">https://github.com/imaegoo/twikoo</a></p><p>twikoo:<br>envId: <a href="https://xxxxxx.vercel.app/">https://xxxxxx.vercel.app/</a><br>region: #默认节点即可<br>visitor: true #记录访问人数<br>option:</p><p>注：deploy到 Github默认分支即可    </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Twikoo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Gitee+Github双向部属</title>
+      <link href="/2022/08/18/Gitee+Github%E5%8F%8C%E5%90%91%E9%83%A8%E7%BD%B2/"/>
+      <url>/2022/08/18/Gitee+Github%E5%8F%8C%E5%90%91%E9%83%A8%E7%BD%B2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="众所周知"><a href="#众所周知" class="headerlink" title="众所周知"></a>众所周知</h1><p>    <strong>Github</strong> 作为全球著名的同性交友网站深受各位程序员的喜爱，但由于一些原因，Github经常属于半墙状态（比如江苏有线宽带绝大部分屏蔽了github.com）</p><p>    <strong>于是</strong> Gitee 应运而生，作为 Github在国内的翻版，同样他也有着免费的 GiteePages 由于服务器架设在中国，所以在中国访问速度快，但是在这片神奇的土地上有着一个神奇的制度叫”备案” （如果服务器在中国就必须备案）否则网站不予显示。</p><p>    在这样的背景下，使用 Gitee+自定义域名就十分麻烦（但是对于没有更换域名需求的人来讲，一个高速免费的 xx.gitee.io 个人博客谁不喜爱呢）</p><h1 id="正题"><a href="#正题" class="headerlink" title="正题"></a>正题</h1><h3 id="一，没有-Githubpages的账户"><a href="#一，没有-Githubpages的账户" class="headerlink" title="一，没有 Githubpages的账户"></a>一，没有 Githubpages的账户</h3><p>    哔哩哔哩 搜索<mark>Hexo+Gitee</mark> 教程一大堆，下方文章教程于已有Github情况</p><h3 id="二，导入库（有GithubPages）"><a href="#二，导入库（有GithubPages）" class="headerlink" title="二，导入库（有GithubPages）"></a>二，导入库（有GithubPages）</h3><p>    在已有 Githubpage的情况下，选择 Github登录 Gitee，通过点击直接导入Github的库</p><img title="" src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/gitee.png" alt="" data-align="left"><p>设置库名为 <mark><strong>xxx.gitee.io</strong></mark> </p><h3 id="三，Git设定和SSH绑定"><a href="#三，Git设定和SSH绑定" class="headerlink" title="三，Git设定和SSH绑定"></a>三，Git设定和SSH绑定</h3><p><a href="https://blog.csdn.net/qq_41473874/article/details/100104495">修改SSH和Git设定</a></p><h3 id="四，修改-Web根目录下-config-yml文件"><a href="#四，修改-Web根目录下-config-yml文件" class="headerlink" title="四，修改 Web根目录下  __config.yml文件"></a>四，修改 Web根目录下  __config.yml文件</h3><p>    找到 Url 一行，新增一条<mark> Url2</mark></p><img title="" src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/url.png" alt="" data-align="left" width="408">    然后移到最页面底部，找到<img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/respopng.png" alt="" data-align="left">    添加 Gitee的SSH登录Hexo 三部曲即可成功]]></content>
+      
+      
+      <categories>
+          
+          <category> 双向部署 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Gitee </tag>
+            
+            <tag> Github </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于一些奇特的bug</title>
       <link href="/2022/08/18/%E5%85%B3%E4%BA%8E%E4%B8%80%E4%BA%9B%E5%A5%87%E7%89%B9%E7%9A%84bug/"/>
       <url>/2022/08/18/%E5%85%B3%E4%BA%8E%E4%B8%80%E4%BA%9B%E5%A5%87%E7%89%B9%E7%9A%84bug/</url>
       
-        <content type="html"><![CDATA[<table><tr><td bgcolor=#BBFFFF><font size=3><h1 id="记录一些奇怪的BUG"><a href="#记录一些奇怪的BUG" class="headerlink" title="记录一些奇怪的BUG"></a>记录一些奇怪的BUG</h1><hr><ul><li>1.使用MarkText打开过的md文件，保存后使用Hexo d上传会失效 （使用WebStorm重新打开一次，修改一些试试使其重新保存）</li><li>2.Hexo d port443 问题（大概是VNP占用了端口，试试关闭VNP重启电脑）</li><li>3.Gitbush 连接到Github账户出现SSL问题，或者弹出git窗口（使用Github个人令牌）</li><li>4.not permission （先确定磁盘是否写有权限，系统可以创建文件夹或文件,Gitbush图标右键管理员，PowerShell管理员，cd指令）</li></ul><hr></td></tr></table>]]></content>
+        <content type="html"><![CDATA[<h1 id="记录一些奇怪的BUG"><a href="#记录一些奇怪的BUG" class="headerlink" title="记录一些奇怪的BUG"></a>记录一些奇怪的BUG</h1><hr><ul><li>1.使用MarkText打开过的md文件，保存后使用Hexo d上传会失效 （使用WebStorm重新打开一次，修改一些试试使其重新保存）</li><li>2.Hexo d port443 问题（大概是VNP占用了端口，试试关闭VNP重启电脑）</li><li>3.Gitbush 连接到Github账户出现SSL问题，或者弹出git窗口（使用Github个人令牌）</li><li>4.not permission （先确定磁盘是否写有权限，系统可以创建文件夹或文件,Gitbush图标右键管理员，PowerShell管理员，cd指令）</li><li>5.使用Github SSH部署（优先选择Https令牌登录）可能会报端口22错误（检查是否用了 DevSidecar或 VNP）</li><li>6.repository选择 main分支，但是默认上传还是master分支（？）</li></ul><hr>]]></content>
       
       
       <categories>
@@ -27,21 +162,21 @@
       <link href="/2022/08/17/GithubPage-%E6%9B%B4%E6%8D%A2%E5%9F%9F%E5%90%8D/"/>
       <url>/2022/08/17/GithubPage-%E6%9B%B4%E6%8D%A2%E5%9F%9F%E5%90%8D/</url>
       
-        <content type="html"><![CDATA[<table><tr><td bgcolor=#BBFFFF><font size=3># 众所周知<p>域名是一个网站身份的象征</p><h1 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h1><p><del>准备<strong>钱</strong></del>  准备一个阿里云账户在旗下万网注册一个域名，尽量选择顶级域名（.top .site .cn 等）进行<strong>实名认证</strong></p><h1 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h1><p>找到域名服务，点击域名列表，点击 <mark>解析</mark><br><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/web.png"><br>填入对应数据（或使用新手引导）特别注意此处的IP地址,等待解析生效(20min-2h)<br><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/DNS.png"><br><a href="https://tool.lu/ip/"><strong>IP查询工具</strong></a>  或者 cmd ping <mark>用户名.github.io</mark> 推荐使用工具查询</p><h1 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h1><p>打开你的 本地网站根目录文件夹 找到 source 新建一个CNAME的文件（无后缀），输入你的域名<a href="http://www.xxx.xx/">www.xxx.xx</a></p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/site.png"><p>进行Hexo 三部曲 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hexo clean； Hexo g;  Hexo d</span><br></pre></td></tr></table></figure><p>最后返回到 Github的网站目录库点击 <mark>设置-Pages-custom domain</mark></p><img title="" src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/DOMAIN.png"><p>输入你的域名等待解析即可</p><p><strong>注意</strong>：由于 Github及Page在这片神奇的土地上属于半墙状态，所以有些家庭宽带无法访问十分正常（可以通过流量访问），可以通过给主机设置 <mark>Hosts</mark>或者给网页进行 <mark>ICP备案</mark> 或者使用 国外<mark>CDN服务</mark></p></td></tr></table>]]></content>
+        <content type="html"><![CDATA[<h1 id="众所周知"><a href="#众所周知" class="headerlink" title="众所周知"></a>众所周知</h1><p>域名是一个网站身份的象征</p><h1 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h1><p><del>准备<strong>钱</strong></del>  准备一个阿里云账户在旗下万网注册一个域名，尽量选择顶级域名（.top .site .cn 等）进行<strong>实名认证</strong></p><h1 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h1><p>找到域名服务，点击域名列表，点击 <mark>解析</mark><br><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/web.png"><br>填入对应数据（或使用新手引导）特别注意此处的IP地址,等待解析生效(20min-2h)<br><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/DNS.png"><br><a href="https://tool.lu/ip/"><strong>IP查询工具</strong></a>  或者 cmd ping <mark>用户名.github.io</mark> 推荐使用工具查询</p><h1 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h1><p>打开你的 本地网站根目录文件夹 找到 source 新建一个CNAME的文件（无后缀），输入你的域名<a href="http://www.xxx.xx/">www.xxx.xx</a></p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/site.png"><p>进行Hexo 三部曲 </p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Hexo clean； Hexo g;  Hexo d</span><br></pre></td></tr></table></figure><p>最后返回到 Github的网站目录库点击 <mark>设置-Pages-custom domain</mark></p><img title="" src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/DOMAIN.png"><p>输入你的域名等待解析即可</p><p><strong>注意</strong>：由于 Github及Page在这片神奇的土地上属于半墙状态，所以有些家庭宽带无法访问十分正常（可以通过流量访问），可以通过给主机设置 <mark>Hosts</mark>或者给网页进行 <mark>ICP备案</mark> 或者使用 国外<mark>CDN服务</mark></p>]]></content>
       
       
       <categories>
           
-          <category> DNS </category>
+          <category> 域名 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 域名 </tag>
-            
             <tag> 教程 </tag>
+            
+            <tag> 域名绑定 </tag>
             
         </tags>
       
@@ -54,23 +189,21 @@
       <link href="/2022/08/14/Hexo+Github%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/"/>
       <url>/2022/08/14/Hexo+Github%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/</url>
       
-        <content type="html"><![CDATA[<table><tr><td bgcolor=#BBFFFF><font size=3><h3 id="一-安装并配置Git，Nodejs"><a href="#一-安装并配置Git，Nodejs" class="headerlink" title="一.安装并配置Git，Nodejs"></a>一.安装并配置Git，Nodejs</h3><p><a href="https://blog.csdn.net/All___Blue/article/details/109382183?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166055512016781667887883%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=166055512016781667887883&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-109382183-null-null.142%5Ev40%5Epc_rank_34_ctr0,185%5Ev2%5Econtrol&utm_term=windowsgit%E5%AE%89%E8%A3%85&spm=1018.2226.3001.4187">Git安装</a></p><p><a href="https://www.cnblogs.com/xueweisuoyong/p/11914045.html">Windows系统Git安装教程</a>（环境配置要手动加入）</p><p><a href="https://blog.csdn.net/weixin_52799373/article/details/123840137?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166055507016782350893587%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=166055507016782350893587&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-2-123840137-null-null.142%5Ev40%5Epc_rank_34_ctr0,185%5Ev2%5Econtrol&utm_term=nodejs%E5%AE%89%E8%A3%85&spm=1018.2226.3001.4187">nodejs安装和环境配置</a></p><h3 id="二-创建GitHub账号"><a href="#二-创建GitHub账号" class="headerlink" title="二 .创建GitHub账号"></a>二 .创建GitHub账号</h3><p>登录GitHub（访问速度慢可修改Hosts文件或下载<a href="http://down.sd173.com/soft1/Githubfangwenjiasu.rar"><strong>此软件</strong></a>加速）</p><p>创建账号，绑定邮箱，<a href="https://blog.csdn.net/qq_35246620/article/details/68483036">新建仓库</a></p><h3 id="三-创建ssh-keys"><a href="#三-创建ssh-keys" class="headerlink" title="三.创建ssh keys"></a>三.创建ssh keys</h3><p>在gitbush上输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;你的邮箱地址&quot;</span><br></pre></td></tr></table></figure><p>在<mark><strong>C：users\xx\.ssh</strong></mark> 找到<mark><strong>id_rsa.pub</strong></mark>文件 用记事本打开 复制到剪切板</p><p>登录GitHub 在设置界面找到 <mark><strong>SSH and GPG keys</strong></mark>，新建一个SSH key，title可不填，将复制的代码粘贴进去保存。</p><p>回到gitbush输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure><p>检测是否成功（出现successfully）</p><p>绑定git邮箱和用户名</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name “注册时用户名”</span><br><span class="line">git config --global user.email “注册时邮箱”</span><br></pre></td></tr></table></figure><p>关闭gitbush</p><h3 id="四-在本地磁盘新建Blog"><a href="#四-在本地磁盘新建Blog" class="headerlink" title="四.在本地磁盘新建Blog"></a>四.在本地磁盘新建Blog</h3><p>  前言：由于Windows用户权限特殊性，下面步骤如果出现<mark> not permission</mark></p><p>        请尝试以下方法：</p><p>        1，在C:\Windows\System32\cmd.exe 中右键以管理员方式运行</p><p>        2，在Win图标上右键，使用Windows终端（Windows powershell）管理员身份运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd d:\Blog</span><br></pre></td></tr></table></figure><p>正文：</p><p>（英文路径 例如 D:\Blog）右键空白位置启用gitbush，安装cnpm替换npm服务器</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure><h3 id="五-安装Hexo"><a href="#五-安装Hexo" class="headerlink" title="五. 安装Hexo"></a>五. 安装Hexo</h3><p>用gitbush进行Hexo安装</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>初始化 hexo</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><p><strong><mark>由于下载是半墙状态，可能有些地方需要挂载VNP才可成功</mark></strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>在本地4000端口查看默认Hexo 自带博客</p><h3 id="六-配置自动上传博客"><a href="#六-配置自动上传博客" class="headerlink" title="六.配置自动上传博客"></a>六.配置自动上传博客</h3><p>在Blog文件夹下找到<mark>_config.yml</mark>文件</p><p>移到末尾位置<br>          deploy:<br>                    type: git<br>                    repository: <a href="https://github.com/%E7%94%A8%E6%88%B7%E5%90%8D/%E7%94%A8%E6%88%B7%E5%90%8D.github.io.git">https://github.com/用户名/用户名.github.io.git</a><br>                    branch: main</p><p> 例如：我的用户名为Zhaohub，填入 <a href="https://github.com/Zhaohub/Zhaohub.github.io.git">https://github.com/Zhaohub/Zhaohub.github.io.git</a></p><p>安装上传工具，右键空白位置启用gitbush</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install hexo-deployer-git</span><br></pre></td></tr></table></figure><p>然后使用</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure><p>生成网页（可使用 hexo 进行本地预览），使用</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>部署到GitHub，找到仓库</p><p>点击Setting设置Pages -Branch 设置为main 和&#x2F;root save保存，等待一段时间再刷新页面<br><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/12.png" alt="left"></p><p> 出现这个则成功</p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/13.png" alt="left"><p><strong>新建博客都需要执行这三步</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">         hexo cl</span><br><span class="line">         hexo g</span><br><span class="line">         hexo d</span><br></pre></td></tr></table></figure><p>对应:<strong>1</strong>.清除缓存 <strong>2</strong>.hexo generate的简写,生成静态网页 <strong>3</strong>.hexo deploy的简写部署到网络上</p><p>注: 后续网站的建设可使用<a href="%5B%E6%84%9F%E8%B0%A2%E6%82%A8%E4%B8%8B%E8%BD%BDWebStorm%EF%BC%81%5D(https://www.jetbrains.com.cn/webstorm/download/download-thanks.html)"><mark>Webstrom</mark></a>进行,文件都是以md格式上传，建议使用<a href="https://pan.baidu.com/s/1w3c-2zfIK5dxuQOVvC_9NQ"><mark>Marktext</mark></a>（提取码：snss）下载</p></td></tr></table>]]></content>
+        <content type="html"><![CDATA[<h3 id="一-安装并配置Git，Nodejs"><a href="#一-安装并配置Git，Nodejs" class="headerlink" title="一.安装并配置Git，Nodejs"></a>一.安装并配置Git，Nodejs</h3><p><a href="https://blog.csdn.net/All___Blue/article/details/109382183?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166055512016781667887883%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=166055512016781667887883&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-109382183-null-null.142%5Ev40%5Epc_rank_34_ctr0,185%5Ev2%5Econtrol&utm_term=windowsgit%E5%AE%89%E8%A3%85&spm=1018.2226.3001.4187">Git安装</a></p><p><a href="https://www.cnblogs.com/xueweisuoyong/p/11914045.html">Windows系统Git安装教程</a>（环境配置要手动加入）</p><p><a href="https://blog.csdn.net/weixin_52799373/article/details/123840137?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166055507016782350893587%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=166055507016782350893587&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-2-123840137-null-null.142%5Ev40%5Epc_rank_34_ctr0,185%5Ev2%5Econtrol&utm_term=nodejs%E5%AE%89%E8%A3%85&spm=1018.2226.3001.4187">nodejs安装和环境配置</a></p><h3 id="二-创建GitHub账号"><a href="#二-创建GitHub账号" class="headerlink" title="二.创建GitHub账号"></a>二.创建GitHub账号</h3><p>登录GitHub（访问速度慢可修改Hosts文件或下载<a href="http://down.sd173.com/soft1/Githubfangwenjiasu.rar"><strong>此软件</strong></a>加速）</p><p>创建账号，绑定邮箱，<a href="https://blog.csdn.net/qq_35246620/article/details/68483036">新建仓库(仓库名一定要是 用户名.github.io)</a></p><h3 id="三-创建ssh-keys"><a href="#三-创建ssh-keys" class="headerlink" title="三.创建ssh keys"></a>三.创建ssh keys</h3><p>在gitbush上输入</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;你的邮箱地址&quot;</span><br></pre></td></tr></table></figure><p>在<mark><strong>C：users\xx\.ssh</strong></mark> 找到<mark><strong>id_rsa.pub</strong></mark>文件 用记事本打开 复制到剪切板</p><p>登录GitHub 在设置界面找到 <mark><strong>SSH and GPG keys</strong></mark>，新建一个SSH key，title可不填，将复制的代码粘贴进去保存。</p><p>回到gitbush输入</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure><p>检测是否成功（出现successfully）</p><p>绑定git邮箱和用户名</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name “注册时用户名”</span><br><span class="line">git config --global user.email “注册时邮箱”</span><br></pre></td></tr></table></figure><p>关闭gitbush</p><h3 id="四-在本地磁盘新建Blog"><a href="#四-在本地磁盘新建Blog" class="headerlink" title="四.在本地磁盘新建Blog"></a>四.在本地磁盘新建Blog</h3><p>  前言：由于Windows用户权限特殊性，下面步骤如果出现<mark> not permission</mark></p><p>  请尝试以下方法：</p><p>  1，在C:\Windows\System32\cmd.exe 中右键以管理员方式运行</p><p>  2，在Win图标上右键，使用Windows终端（Windows powershell）管理员身份运行</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd d:\Blog</span><br></pre></td></tr></table></figure><p>正文：</p><p>（英文路径 例如 D:\Blog）右键空白位置启用gitbush，安装cnpm替换npm服务器</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure><h3 id="五-安装Hexo"><a href="#五-安装Hexo" class="headerlink" title="五. 安装Hexo"></a>五. 安装Hexo</h3><p>用gitbush进行Hexo安装</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>初始化 hexo</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><p><strong><mark>由于下载是半墙状态，可能有些地方需要挂载VNP才可成功</mark></strong></p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>在本地4000端口查看默认Hexo 自带博客</p><h3 id="六-配置自动上传博客"><a href="#六-配置自动上传博客" class="headerlink" title="六.配置自动上传博客"></a>六.配置自动上传博客</h3><p>在Blog文件夹下找到<mark>_config.yml</mark>文件</p><p>移到末尾位置<br>  deploy:<br>    type: git<br>    repository: <a href="https://github.com/%E7%94%A8%E6%88%B7%E5%90%8D/%E7%94%A8%E6%88%B7%E5%90%8D.github.io.git">https://github.com/用户名/用户名.github.io.git</a><br>    branch: main</p><p> 例如：我的用户名为Zhaohub，填入 <a href="https://github.com/Zhaohub/Zhaohub.github.io.git">https://github.com/Zhaohub/Zhaohub.github.io.git</a></p><p>安装上传工具，右键空白位置启用gitbush</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cnpm install hexo-deployer-git</span><br></pre></td></tr></table></figure><p>然后使用</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure><p>生成网页（可使用 hexo 进行本地预览），使用</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>部署到GitHub，找到仓库</p><p>点击Setting设置Pages -Branch 设置为main 和&#x2F;root save保存，等待一段时间再刷新页面<br><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/12.png" alt="left"></p><p> 出现这个则成功</p><img src="https://zhaohub.oss-cn-hangzhou.aliyuncs.com/img/13.png" alt="left"><p><strong>新建博客都需要执行这三步</strong></p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>对应:<strong>1</strong>.清除缓存 <strong>2</strong>.hexo generate的简写,生成静态网页 <strong>3</strong>.hexo deploy的简写部署到网络上</p><p>注: 后续网站的建设可使用<a href="%5B%E6%84%9F%E8%B0%A2%E6%82%A8%E4%B8%8B%E8%BD%BDWebStorm%EF%BC%81%5D(https://www.jetbrains.com.cn/webstorm/download/download-thanks.html)"><mark>Webstrom</mark></a>进行,文件都是以md格式上传，建议使用<a href="https://pan.baidu.com/s/1w3c-2zfIK5dxuQOVvC_9NQ"><mark>Marktext</mark></a>（提取码：snss）下载</p>]]></content>
       
       
       <categories>
           
-          <category> Web </category>
+          <category> 教程 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 教程 </tag>
+            <tag> Hexo </tag>
             
-            <tag> 建站 </tag>
-            
-            <tag> hexo </tag>
+            <tag> Web </tag>
             
         </tags>
       
